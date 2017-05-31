@@ -10,9 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var txthoten: DesignTextField!
+    
+    
+    @IBOutlet weak var txtemail: DesignTextField!
+    
+    
+    @IBOutlet weak var btnsubmit: DesignButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
