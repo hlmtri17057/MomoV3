@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4FD6E7461EDEC819008CE231 /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD6E7451EDEC819008CE231 /* ViewController5.swift */; };
 		DE04B1261EDEC61D002C070D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE04B1251EDEC61D002C070D /* AppDelegate.swift */; };
 		DE04B1281EDEC61D002C070D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE04B1271EDEC61D002C070D /* ViewController.swift */; };
 		DE04B12B1EDEC61D002C070D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE04B1291EDEC61D002C070D /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4FD6E7451EDEC819008CE231 /* ViewController5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = "<group>"; };
 		DE04B1221EDEC61C002C070D /* Momov3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Momov3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE04B1251EDEC61D002C070D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE04B1271EDEC61D002C070D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				DE04B1531EDEC628002C070D /* support */,
 				DE04B12E1EDEC61D002C070D /* LaunchScreen.storyboard */,
 				DE04B1311EDEC61D002C070D /* Info.plist */,
+				4FD6E7451EDEC819008CE231 /* ViewController5.swift */,
 			);
 			path = Momov3;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				DE04B1281EDEC61D002C070D /* ViewController.swift in Sources */,
 				DE04B1261EDEC61D002C070D /* AppDelegate.swift in Sources */,
 				DE04B15C1EDEC657002C070D /* DesignTextField.swift in Sources */,
+				4FD6E7461EDEC819008CE231 /* ViewController5.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,6 +516,7 @@
 				DE04B14C1EDEC61D002C070D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE04B14D1EDEC61D002C070D /* Build configuration list for PBXNativeTarget "Momov3Tests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +525,7 @@
 				DE04B14F1EDEC61D002C070D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE04B1501EDEC61D002C070D /* Build configuration list for PBXNativeTarget "Momov3UITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +534,7 @@
 				DE04B1521EDEC61D002C070D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

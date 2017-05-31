@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--View Controller5-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Momov3" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController5" customModule="Momov3" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +19,192 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LÊ THỊ MINH LOAN 0903123456" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Goo-8l-fx2">
+                                <rect key="frame" x="222" y="55" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="158" id="IPP-25-qdv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="IPP-25-qdv"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="IPP-25-qdv"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Nhập mật khẩu" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="63L-gj-X0X" customClass="DesignTextField" customModule="Momov3" customModuleProvider="target">
+                                <rect key="frame" x="-25" y="-30" width="97" height="30"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="LU8-RG-UMG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="LU8-RG-UMG"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="LU8-RG-UMG"/>
+                                    </mask>
+                                </variation>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BzS-XK-Wg3">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="sMz-AG-BaT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="QUÊN MẬT KHẨU?">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="sMz-AG-BaT"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="sMz-AG-BaT"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="swt-7r-Taf">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="CGB-Wl-oKp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="ĐỔI SĐT">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="CGB-Wl-oKp"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="CGB-Wl-oKp"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aTI-Pg-4hf" customClass="DesignButton" customModule="Momov3" customModuleProvider="target">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.50974264709999995" green="0.0052201859280000002" blue="0.28851011570000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Slf-R5-Qxe"/>
+                                </constraints>
+                                <state key="normal" title="ĐĂNG NHẬP">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Slf-R5-Qxe"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="Slf-R5-Qxe"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.62745098040000002" green="0.0078431372550000003" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="63L-gj-X0X" firstAttribute="leading" secondItem="aTI-Pg-4hf" secondAttribute="leading" id="B7c-xK-4qw"/>
+                            <constraint firstItem="swt-7r-Taf" firstAttribute="leading" secondItem="BzS-XK-Wg3" secondAttribute="trailing" constant="36" id="F1o-F4-Is1"/>
+                            <constraint firstItem="swt-7r-Taf" firstAttribute="baseline" secondItem="BzS-XK-Wg3" secondAttribute="firstBaseline" id="HIm-o5-Q03"/>
+                            <constraint firstItem="Goo-8l-fx2" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="83" id="KNt-WJ-Xqn"/>
+                            <constraint firstItem="63L-gj-X0X" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="Q6S-zK-hDS"/>
+                            <constraint firstItem="63L-gj-X0X" firstAttribute="trailing" secondItem="aTI-Pg-4hf" secondAttribute="trailing" id="dhH-5C-zyC"/>
+                            <constraint firstItem="63L-gj-X0X" firstAttribute="top" secondItem="Goo-8l-fx2" secondAttribute="bottom" constant="8" symbolic="YES" id="f1u-G3-b2k"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="swt-7r-Taf" secondAttribute="trailing" constant="73" id="gLD-g2-zXa"/>
+                            <constraint firstItem="Goo-8l-fx2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hhL-gA-kXA"/>
+                            <constraint firstItem="BzS-XK-Wg3" firstAttribute="top" secondItem="aTI-Pg-4hf" secondAttribute="bottom" constant="44" id="kl5-LL-RRI"/>
+                            <constraint firstItem="BzS-XK-Wg3" firstAttribute="top" secondItem="swt-7r-Taf" secondAttribute="top" id="lll-cN-57P"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="BzS-XK-Wg3" secondAttribute="bottom" constant="254" id="naT-h5-ybQ"/>
+                            <constraint firstItem="Goo-8l-fx2" firstAttribute="centerX" secondItem="63L-gj-X0X" secondAttribute="centerX" id="qc6-2h-IzZ"/>
+                            <constraint firstItem="BzS-XK-Wg3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="63" id="qrP-DQ-IaB"/>
+                            <constraint firstItem="BzS-XK-Wg3" firstAttribute="baseline" secondItem="swt-7r-Taf" secondAttribute="firstBaseline" id="rIJ-v0-xAY"/>
+                            <constraint firstItem="aTI-Pg-4hf" firstAttribute="top" secondItem="63L-gj-X0X" secondAttribute="bottom" constant="8" symbolic="YES" id="zT0-wH-C1q"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="63L-gj-X0X"/>
+                                <exclude reference="BzS-XK-Wg3"/>
+                                <exclude reference="swt-7r-Taf"/>
+                                <exclude reference="aTI-Pg-4hf"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="KNt-WJ-Xqn"/>
+                                <exclude reference="hhL-gA-kXA"/>
+                                <exclude reference="qc6-2h-IzZ"/>
+                                <exclude reference="B7c-xK-4qw"/>
+                                <exclude reference="Q6S-zK-hDS"/>
+                                <exclude reference="dhH-5C-zyC"/>
+                                <exclude reference="f1u-G3-b2k"/>
+                                <exclude reference="zT0-wH-C1q"/>
+                                <exclude reference="kl5-LL-RRI"/>
+                                <exclude reference="lll-cN-57P"/>
+                                <exclude reference="qrP-DQ-IaB"/>
+                                <exclude reference="rIJ-v0-xAY"/>
+                                <exclude reference="F1o-F4-Is1"/>
+                                <exclude reference="HIm-o5-Q03"/>
+                                <exclude reference="gLD-g2-zXa"/>
+                                <exclude reference="naT-h5-ybQ"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="63L-gj-X0X"/>
+                                <include reference="BzS-XK-Wg3"/>
+                                <include reference="swt-7r-Taf"/>
+                                <include reference="aTI-Pg-4hf"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="KNt-WJ-Xqn"/>
+                                <include reference="hhL-gA-kXA"/>
+                                <include reference="qc6-2h-IzZ"/>
+                                <include reference="B7c-xK-4qw"/>
+                                <include reference="Q6S-zK-hDS"/>
+                                <include reference="dhH-5C-zyC"/>
+                                <include reference="f1u-G3-b2k"/>
+                                <include reference="zT0-wH-C1q"/>
+                                <include reference="kl5-LL-RRI"/>
+                                <include reference="lll-cN-57P"/>
+                                <include reference="qrP-DQ-IaB"/>
+                                <include reference="rIJ-v0-xAY"/>
+                                <include reference="F1o-F4-Is1"/>
+                                <include reference="HIm-o5-Q03"/>
+                                <include reference="gLD-g2-zXa"/>
+                                <include reference="naT-h5-ybQ"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="244.5" y="399"/>
         </scene>
     </scenes>
 </document>
