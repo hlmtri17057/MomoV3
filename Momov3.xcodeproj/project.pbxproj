@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		DE04B1261EDEC61D002C070D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE04B1251EDEC61D002C070D /* AppDelegate.swift */; };
-		DE04B1281EDEC61D002C070D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE04B1271EDEC61D002C070D /* ViewController.swift */; };
 		DE04B12B1EDEC61D002C070D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE04B1291EDEC61D002C070D /* Main.storyboard */; };
 		DE04B12D1EDEC61D002C070D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE04B12C1EDEC61D002C070D /* Assets.xcassets */; };
 		DE04B1301EDEC61D002C070D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE04B12E1EDEC61D002C070D /* LaunchScreen.storyboard */; };
@@ -19,6 +18,8 @@
 		DE04B15B1EDEC657002C070D /* DesignLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE04B1561EDEC657002C070D /* DesignLabel.swift */; };
 		DE04B15C1EDEC657002C070D /* DesignTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE04B1571EDEC657002C070D /* DesignTextField.swift */; };
 		DE04B15D1EDEC657002C070D /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE04B1581EDEC657002C070D /* logo.jpg */; };
+		DE04B1651EDEC795002C070D /* View1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE04B1641EDEC795002C070D /* View1.swift */; };
+		DE04B1671EDEC7A4002C070D /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE04B1661EDEC7A4002C070D /* View2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +42,6 @@
 /* Begin PBXFileReference section */
 		DE04B1221EDEC61C002C070D /* Momov3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Momov3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE04B1251EDEC61D002C070D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DE04B1271EDEC61D002C070D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DE04B12A1EDEC61D002C070D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE04B12C1EDEC61D002C070D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE04B12F1EDEC61D002C070D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,6 +57,8 @@
 		DE04B1561EDEC657002C070D /* DesignLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignLabel.swift; sourceTree = "<group>"; };
 		DE04B1571EDEC657002C070D /* DesignTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignTextField.swift; sourceTree = "<group>"; };
 		DE04B1581EDEC657002C070D /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
+		DE04B1641EDEC795002C070D /* View1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View1.swift; sourceTree = "<group>"; };
+		DE04B1661EDEC7A4002C070D /* View2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,12 +110,13 @@
 			isa = PBXGroup;
 			children = (
 				DE04B1251EDEC61D002C070D /* AppDelegate.swift */,
-				DE04B1271EDEC61D002C070D /* ViewController.swift */,
 				DE04B1291EDEC61D002C070D /* Main.storyboard */,
 				DE04B12C1EDEC61D002C070D /* Assets.xcassets */,
 				DE04B1531EDEC628002C070D /* support */,
 				DE04B12E1EDEC61D002C070D /* LaunchScreen.storyboard */,
 				DE04B1311EDEC61D002C070D /* Info.plist */,
+				DE04B1641EDEC795002C070D /* View1.swift */,
+				DE04B1661EDEC7A4002C070D /* View2.swift */,
 			);
 			path = Momov3;
 			sourceTree = "<group>";
@@ -283,8 +286,9 @@
 				DE04B15A1EDEC657002C070D /* DesignImageView.swift in Sources */,
 				DE04B15B1EDEC657002C070D /* DesignLabel.swift in Sources */,
 				DE04B1591EDEC657002C070D /* DesignButton.swift in Sources */,
-				DE04B1281EDEC61D002C070D /* ViewController.swift in Sources */,
 				DE04B1261EDEC61D002C070D /* AppDelegate.swift in Sources */,
+				DE04B1671EDEC7A4002C070D /* View2.swift in Sources */,
+				DE04B1651EDEC795002C070D /* View1.swift in Sources */,
 				DE04B15C1EDEC657002C070D /* DesignTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

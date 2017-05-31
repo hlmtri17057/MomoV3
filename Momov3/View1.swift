@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  View1.swift
 //  Momov3
 //
 //  Created by Huỳnh Lê Minh Trí on 5/31/17.
@@ -8,8 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class View1: UIViewController {
 
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
