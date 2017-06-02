@@ -124,11 +124,6 @@
                                 <exclude reference="3I0-Ua-6HC"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="9WK-eo-7hn"/>
-                                <exclude reference="KPq-IR-K0E"/>
-                                <exclude reference="1cA-CX-1IA"/>
-                                <exclude reference="2NA-Gd-xaf"/>
-                                <exclude reference="zWp-Ct-KZP"/>
                                 <exclude reference="FUi-HZ-THj"/>
                                 <exclude reference="LPq-0E-ebD"/>
                                 <exclude reference="qBq-oR-Tzf"/>
@@ -140,6 +135,11 @@
                                 <exclude reference="Eg5-Tb-f8r"/>
                                 <exclude reference="H3k-ka-N4u"/>
                                 <exclude reference="gEM-sw-liF"/>
+                                <exclude reference="1cA-CX-1IA"/>
+                                <exclude reference="2NA-Gd-xaf"/>
+                                <exclude reference="zWp-Ct-KZP"/>
+                                <exclude reference="9WK-eo-7hn"/>
+                                <exclude reference="KPq-IR-K0E"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -151,11 +151,6 @@
                                 <include reference="3I0-Ua-6HC"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="9WK-eo-7hn"/>
-                                <include reference="KPq-IR-K0E"/>
-                                <include reference="1cA-CX-1IA"/>
-                                <include reference="2NA-Gd-xaf"/>
-                                <include reference="zWp-Ct-KZP"/>
                                 <include reference="FUi-HZ-THj"/>
                                 <include reference="LPq-0E-ebD"/>
                                 <include reference="qBq-oR-Tzf"/>
@@ -167,6 +162,11 @@
                                 <include reference="Eg5-Tb-f8r"/>
                                 <include reference="H3k-ka-N4u"/>
                                 <include reference="gEM-sw-liF"/>
+                                <include reference="1cA-CX-1IA"/>
+                                <include reference="2NA-Gd-xaf"/>
+                                <include reference="zWp-Ct-KZP"/>
+                                <include reference="9WK-eo-7hn"/>
+                                <include reference="KPq-IR-K0E"/>
                             </mask>
                         </variation>
                     </view>
