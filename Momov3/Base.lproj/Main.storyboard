@@ -162,14 +162,14 @@
                                 <exclude reference="M2j-S7-Chz"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="eda-go-KKu"/>
-                                <exclude reference="uub-ff-uz7"/>
                                 <exclude reference="0kF-4k-4mF"/>
                                 <exclude reference="DBR-Od-TC5"/>
                                 <exclude reference="Q1N-w7-Ajo"/>
                                 <exclude reference="bx2-Ym-Xi2"/>
                                 <exclude reference="bt1-Sm-RQL"/>
                                 <exclude reference="byJ-es-Qc3"/>
+                                <exclude reference="eda-go-KKu"/>
+                                <exclude reference="uub-ff-uz7"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -180,14 +180,14 @@
                                 <include reference="M2j-S7-Chz"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="eda-go-KKu"/>
-                                <include reference="uub-ff-uz7"/>
                                 <include reference="0kF-4k-4mF"/>
                                 <include reference="DBR-Od-TC5"/>
                                 <include reference="Q1N-w7-Ajo"/>
                                 <include reference="bx2-Ym-Xi2"/>
                                 <include reference="bt1-Sm-RQL"/>
                                 <include reference="byJ-es-Qc3"/>
+                                <include reference="eda-go-KKu"/>
+                                <include reference="uub-ff-uz7"/>
                             </mask>
                         </variation>
                     </view>
@@ -205,6 +205,7 @@
                         <viewControllerLayoutGuide type="bottom" id="vpm-fe-sXf"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="hZQ-oU-6QT">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YUt-Y8-AfB">
@@ -355,16 +356,16 @@
                                     <mask key="constraints">
                                         <exclude reference="4Le-ll-d2S"/>
                                         <exclude reference="PdV-iL-h1s"/>
-                                        <exclude reference="99q-2C-aNv"/>
-                                        <exclude reference="IVP-Zk-BVh"/>
-                                        <exclude reference="3Xy-BJ-qbX"/>
-                                        <exclude reference="mGx-Lf-Wlo"/>
-                                        <exclude reference="MmW-q3-6UI"/>
-                                        <exclude reference="Rn8-yy-FbI"/>
                                         <exclude reference="8l9-bL-dJw"/>
                                         <exclude reference="SeM-TF-W4q"/>
                                         <exclude reference="Jk0-Ux-rw8"/>
                                         <exclude reference="hB9-ZC-uUh"/>
+                                        <exclude reference="99q-2C-aNv"/>
+                                        <exclude reference="IVP-Zk-BVh"/>
+                                        <exclude reference="MmW-q3-6UI"/>
+                                        <exclude reference="Rn8-yy-FbI"/>
+                                        <exclude reference="3Xy-BJ-qbX"/>
+                                        <exclude reference="mGx-Lf-Wlo"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact">
@@ -378,16 +379,16 @@
                                     <mask key="constraints">
                                         <include reference="4Le-ll-d2S"/>
                                         <include reference="PdV-iL-h1s"/>
-                                        <include reference="99q-2C-aNv"/>
-                                        <include reference="IVP-Zk-BVh"/>
-                                        <include reference="3Xy-BJ-qbX"/>
-                                        <include reference="mGx-Lf-Wlo"/>
-                                        <include reference="MmW-q3-6UI"/>
-                                        <include reference="Rn8-yy-FbI"/>
                                         <include reference="8l9-bL-dJw"/>
                                         <include reference="SeM-TF-W4q"/>
                                         <include reference="Jk0-Ux-rw8"/>
                                         <include reference="hB9-ZC-uUh"/>
+                                        <include reference="99q-2C-aNv"/>
+                                        <include reference="IVP-Zk-BVh"/>
+                                        <include reference="MmW-q3-6UI"/>
+                                        <include reference="Rn8-yy-FbI"/>
+                                        <include reference="3Xy-BJ-qbX"/>
+                                        <include reference="mGx-Lf-Wlo"/>
                                     </mask>
                                 </variation>
                             </view>
