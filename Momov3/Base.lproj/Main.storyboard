@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -20,7 +20,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LÊ THỊ MINH LOAN 0903123456" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Goo-8l-fx2">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="LÊ THỊ MINH LOAN 0903123456" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Goo-8l-fx2">
                                 <rect key="frame" x="222" y="55" width="42" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="158" id="IPP-25-qdv"/>
@@ -156,21 +156,21 @@
                                 <exclude reference="aTI-Pg-4hf"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="KNt-WJ-Xqn"/>
-                                <exclude reference="hhL-gA-kXA"/>
-                                <exclude reference="qc6-2h-IzZ"/>
                                 <exclude reference="B7c-xK-4qw"/>
                                 <exclude reference="Q6S-zK-hDS"/>
                                 <exclude reference="dhH-5C-zyC"/>
                                 <exclude reference="f1u-G3-b2k"/>
-                                <exclude reference="zT0-wH-C1q"/>
                                 <exclude reference="kl5-LL-RRI"/>
                                 <exclude reference="lll-cN-57P"/>
                                 <exclude reference="qrP-DQ-IaB"/>
                                 <exclude reference="rIJ-v0-xAY"/>
+                                <exclude reference="zT0-wH-C1q"/>
                                 <exclude reference="F1o-F4-Is1"/>
                                 <exclude reference="HIm-o5-Q03"/>
                                 <exclude reference="gLD-g2-zXa"/>
+                                <exclude reference="KNt-WJ-Xqn"/>
+                                <exclude reference="hhL-gA-kXA"/>
+                                <exclude reference="qc6-2h-IzZ"/>
                                 <exclude reference="naT-h5-ybQ"/>
                             </mask>
                         </variation>
@@ -182,21 +182,21 @@
                                 <include reference="aTI-Pg-4hf"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="KNt-WJ-Xqn"/>
-                                <include reference="hhL-gA-kXA"/>
-                                <include reference="qc6-2h-IzZ"/>
                                 <include reference="B7c-xK-4qw"/>
                                 <include reference="Q6S-zK-hDS"/>
                                 <include reference="dhH-5C-zyC"/>
                                 <include reference="f1u-G3-b2k"/>
-                                <include reference="zT0-wH-C1q"/>
                                 <include reference="kl5-LL-RRI"/>
                                 <include reference="lll-cN-57P"/>
                                 <include reference="qrP-DQ-IaB"/>
                                 <include reference="rIJ-v0-xAY"/>
+                                <include reference="zT0-wH-C1q"/>
                                 <include reference="F1o-F4-Is1"/>
                                 <include reference="HIm-o5-Q03"/>
                                 <include reference="gLD-g2-zXa"/>
+                                <include reference="KNt-WJ-Xqn"/>
+                                <include reference="hhL-gA-kXA"/>
+                                <include reference="qc6-2h-IzZ"/>
                                 <include reference="naT-h5-ybQ"/>
                             </mask>
                         </variation>
